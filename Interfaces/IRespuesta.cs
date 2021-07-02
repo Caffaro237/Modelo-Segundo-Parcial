@@ -8,9 +8,7 @@ namespace Interfaces
 {
     public interface IRespuesta<T>
     {
-        private void RespuestaHilo()
-        {
+        void RespuestaHilo(T id);
 
-        }
     }
 }

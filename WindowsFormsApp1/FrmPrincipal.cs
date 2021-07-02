@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
 
         private void btnBitacora_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show(hilos.Bitacora);
         }
         
         public void MostrarMensajeFin(string mensaje)
